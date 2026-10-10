@@ -5,14 +5,14 @@
 # prevent it from being included in the site.
 #
 main:
-  - title: "Projects"
-    url: /publications/
+  - title: "Teaching"
+    url: /teaching/
 
   - title: "Events"
     url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "Projects"
+    url: /publications/
     
   - title: "Handouts"
     url: /portfolio/
