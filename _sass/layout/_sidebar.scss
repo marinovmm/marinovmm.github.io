@@ -185,6 +185,15 @@
   }
 }
 
+.author__urls .author__link-logo {
+  display: inline-block;
+  width: 1.25em;
+  height: 1.4em;
+  margin-right: 1em;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
 .author__urls {
   display: none;
   position: absolute;
