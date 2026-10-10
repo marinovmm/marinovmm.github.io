@@ -86,7 +86,7 @@
         {% if author.cv_pdf %}
           <a href="{{ author.cv_pdf | relative_url }}" download><i class="fas fa-fw fa-file-pdf icon-pad-right" aria-hidden="true"></i>CV</a>
         {% else %}
-          <button class="author__cv" type="button" disabled title="CV PDF not yet available"><i class="fas fa-fw fa-file-pdf icon-pad-right" aria-hidden="true"></i>CV</button>
+          <a href="{{ '/cv/' | relative_url }}"><i class="fas fa-fw fa-file-pdf icon-pad-right" aria-hidden="true"></i>CV</a>
         {% endif %}
       </li>
       {% if author.kaggle %}
