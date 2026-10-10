@@ -31,6 +31,7 @@ author:
   employer         : #"Red Brick University"
   uri              : # URL
   email            : "m.marinov1617@gmail.com" 
+  cv_pdf           : # Add the CV PDF path here later, for example /files/cv.pdf
 
   # Academic websites
   academia         : # URL
