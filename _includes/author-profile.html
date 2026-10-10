@@ -80,14 +80,14 @@
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
       {% endif %}
       <li>
-        <a href="https://artofproblemsolving.com/community/my-aops"><img class="author__link-logo" src="{{ '/images/aops-logo.png' | relative_url }}" alt="" width="18" height="20">AoPS</a>
-      </li>
-      <li>
         {% if author.cv_pdf %}
           <a href="{{ author.cv_pdf | relative_url }}" download><i class="fas fa-fw fa-file-pdf icon-pad-right" aria-hidden="true"></i>CV</a>
         {% else %}
           <a role="link" aria-disabled="true" title="CV PDF coming soon"><i class="fas fa-fw fa-file-pdf icon-pad-right" aria-hidden="true"></i>CV</a>
         {% endif %}
+      </li>
+      <li>
+        <a href="https://artofproblemsolving.com/community/my-aops"><img class="author__link-logo" src="{{ '/images/aops-logo.png' | relative_url }}" alt="" width="18" height="20">AoPS</a>
       </li>
       {% if author.kaggle %}
         <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>
